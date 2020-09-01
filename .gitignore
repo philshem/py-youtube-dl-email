@@ -1,0 +1,7 @@
+.env
+mp3s/*.mp3
+venv
+*.pyc
+*.code-workspace
+.vscode
+.DS_Store
