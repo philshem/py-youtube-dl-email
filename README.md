@@ -4,7 +4,7 @@
 
 In order to transfer mp3s to an mp3 player that my kids use, I was planning for them to save songs to a youtube playlist, and then I'd download the entire playlist as mp3s. Then I'd transfer the mp3s to the player.
 
-[`youtube-dl`][youtube-dl](https://ytdl-org.github.io/youtube-dl/) already has great support for downloading entire playlists. It's as simple as passing the playlist id:
+[`youtube-dl`](https://ytdl-org.github.io/youtube-dl/) already has great support for downloading entire playlists. It's as simple as passing the playlist id:
 
 ```
 youtube-dl -i PLwJ2VKmefmxpUJEGB1ff6yUZ5Zd7Gegn2
