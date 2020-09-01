@@ -10,7 +10,7 @@ In order to transfer mp3s to an mp3 player that my kids use, I was planning for 
 youtube-dl -i PLwJ2VKmefmxpUJEGB1ff6yUZ5Zd7Gegn2
 ```
 
-**Did you know that kids' content on youtube can't be saved to a playlist?** It's true, try to add [this video](https://www.youtube.com/watch?v=-CSxGHve60E) to a playlist. You'll see that the "Save" button is grey-out. If you click it, you get this message:
+**Did you know that kids' content on youtube can't be saved to a playlist?** It's true, try to add [this video](https://www.youtube.com/watch?v=-CSxGHve60E) to a playlist. You'll see that the "Save" button is grey-out. If you click it anyway, you get this message:
 
 > This action is turned off for content made for kids
 
@@ -18,7 +18,7 @@ with a link to [this explanation](https://support.google.com/youtube/answer/9632
 
 ## why!
 
-The plan is that the kids could share youtube videos via email. The recipient email address would be set up for just this purpose. The following Python3 code reads all unread emails and scans them for youtube links. Those links are then sent to youtube-dl, which downloads the youtube content as a local mp3 file. Files can then be manually synced with the mp3 player.
+The plan is that the kids could share youtube videos via email. The recipient email address would be set up for just this purpose. The following Python3 code reads all unread emails and scans them for youtube links. Those links are then passed to youtube-dl, which downloads the youtube content as a local mp3 file. Files can then be manually synced with the mp3 player.
 
 ## the code
 
